@@ -1,94 +1,113 @@
 /* Background and main page */
 body {
-  background-color: #a9a9a9;
-  font-family: Arial, sans-serif;
-  margin: 0;
+  background-color: #a9a9a9; /* Makes the background gray */
+  font-family: Arial, sans-serif; /* Font used throughout the website */
+  margin: 0; /* Removes space around the page */
 }
+
 .page {
-  padding: 20px;
+  padding: 20px; /* Adds space inside the page */
 }
+
 #welcome {
-  color: darkred;
-  font-size: 50px;
-  margin: 10px 0;
+  color: darkred; /* Color of my main heading */
+  font-size: 50px; /* Makes the heading bigger */
+  margin: 10px 0; /* Space above and below */
 }
+
 .subtitle {
-  color: lightgoldenrodyellow;
+  color: lightgoldenrodyellow; /* Color of my subtitle */
   margin: 10px 0 25px;
 }
 
+
 /* Pictures at the edges, text in the middle */
 .magazine-row {
-  display: flex;
-  align-items: center;
-  gap: 15px;
+  display: flex; /* Puts everything side by side */
+  align-items: center; /* Centers everything vertically */
+  gap: 15px; /* Space between each item */
 }
+
 .side-picture {
-  width: 20%;
-  height: auto;
+  width: 20%; /* Controls the size of the pictures */
+  height: auto; /* Keeps the pictures proportional */
 }
+
 .middle-text {
-  width: 60%;
-  text-align: center;
+  width: 60%; /* Gives the text more room */
+  text-align: center; /* Centers my text */
 }
+
 .highlight {
   color: darkred;
-  font-weight: bold;
+  font-weight: bold; /* Makes the highlighted word bold */
 }
+
 .friendly {
-  color: darkred;
+  color: darkred; /* Changes the color of my message */
 }
+
 
 /* Two boxes that always stay side by side */
 .box-row {
-  display: flex;
-  gap: 15px;
+  display: flex; /* Keeps both boxes next to each other */
+  gap: 15px; /* Space between the boxes */
   margin: 25px 0;
 }
+
 .colored-box {
-  flex: 1;
-  min-width: 0;
-  padding: 15px;
-  margin: 5px;
+  flex: 1; /* Gives both boxes equal space */
+  min-width: 0; /* Allows the boxes to shrink */
+  padding: 15px; /* Space inside the boxes */
+  margin: 5px; /* Space outside the boxes */
 }
+
 .box-one {
-  background-color: #e9b8b8;
+  background-color: #e9b8b8; /* Makes the first box pink */
 }
+
 .box-two {
-  background-color: #f3e4a4;
+  background-color: #f3e4a4; /* Makes the second box yellow */
 }
+
 
 /* Paragraphs, lists, and other sections */
 p {
-  padding: 10px;
-  margin: 10px 0;
-  line-height: 1.5;
+  padding: 10px; /* Space inside the paragraphs */
+  margin: 10px 0; /* Space between paragraphs */
+  line-height: 1.5; /* Space between lines of text */
 }
+
 .section {
-  background-color: #d3d3d3;
+  background-color: #d3d3d3; /* Light gray background */
   padding: 15px;
-  margin: 20px 0;
+  margin: 20px 0; /* Space between sections */
 }
+
 .song-list {
-  padding: 15px 15px 15px 35px;
+  padding: 15px 15px 15px 35px; /* Gives the list some room */
   margin: 10px;
 }
+
 .song-list li {
   padding: 6px;
-  margin: 5px;
+  margin: 5px; /* Space between each song */
 }
+
 
 /* Music text and GIF share a row */
 .music-section {
-  display: flex;
-  align-items: center;
-  gap: 20px;
+  display: flex; /* Puts my songs and GIF side by side */
+  align-items: center; /* Centers them vertically */
+  gap: 20px; /* Space between the text and GIF */
 }
+
 .music-text {
-  flex: 1;
-  min-width: 0;
+  flex: 1; /* Fills the remaining space */
+  min-width: 0; /* Allows the text container to shrink */
 }
+
 .lucki-picture {
-  width: 35%;
-  height: auto;
+  width: 35%; /* Controls the size of my Lucki GIF */
+  height: auto; /* Keeps the GIF proportional */
 }
