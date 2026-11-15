@@ -1,0 +1,94 @@
+/* Background and main page */
+body {
+  background-color: #a9a9a9;
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+.page {
+  padding: 20px;
+}
+#welcome {
+  color: darkred;
+  font-size: 50px;
+  margin: 10px 0;
+}
+.subtitle {
+  color: lightgoldenrodyellow;
+  margin: 10px 0 25px;
+}
+
+/* Pictures at the edges, text in the middle */
+.magazine-row {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.side-picture {
+  width: 20%;
+  height: auto;
+}
+.middle-text {
+  width: 60%;
+  text-align: center;
+}
+.highlight {
+  color: darkred;
+  font-weight: bold;
+}
+.friendly {
+  color: darkred;
+}
+
+/* Two boxes that always stay side by side */
+.box-row {
+  display: flex;
+  gap: 15px;
+  margin: 25px 0;
+}
+.colored-box {
+  flex: 1;
+  min-width: 0;
+  padding: 15px;
+  margin: 5px;
+}
+.box-one {
+  background-color: #e9b8b8;
+}
+.box-two {
+  background-color: #f3e4a4;
+}
+
+/* Paragraphs, lists, and other sections */
+p {
+  padding: 10px;
+  margin: 10px 0;
+  line-height: 1.5;
+}
+.section {
+  background-color: #d3d3d3;
+  padding: 15px;
+  margin: 20px 0;
+}
+.song-list {
+  padding: 15px 15px 15px 35px;
+  margin: 10px;
+}
+.song-list li {
+  padding: 6px;
+  margin: 5px;
+}
+
+/* Music text and GIF share a row */
+.music-section {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.music-text {
+  flex: 1;
+  min-width: 0;
+}
+.lucki-picture {
+  width: 35%;
+  height: auto;
+}

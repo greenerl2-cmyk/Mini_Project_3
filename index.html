@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Personal Website - Mini Project 3</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="page">
+    <h1 id="welcome">Hellooo</h1>
+    <h2 class="subtitle">This is my website!!</h2>
+
+    <div class="magazine-row">
+      <img class="side-picture" src="sennheiser.jpg" alt="Sennheiser headphones">
+      <div class="middle-text">
+        <p class="intro">Welcome to my website! I love to listen to <span class="highlight">music</span>, make herbal blends, watch media, go outside, and skateboard.</p>
+        <h3>Why I'm interested in this course</h3>
+        <p>I took this course because I want to do freelance web design one day, or maybe just have fun making my own websites.</p>
+        <p class="friendly">I hope you like it :D</p>
+      </div>
+      <img class="side-picture" src="hockey-skateboards-andrew-allen-satanica-shape-1-deck-85.webp" alt="Hockey skateboard deck">
+    </div>
+
+    <div class="box-row">
+      <div class="colored-box box-one">
+        <h3>Dream Job</h3>
+        <p>My dream job right now is working in IT in the private sector of government contract work.</p>
+      </div>
+      <div class="colored-box box-two">
+        <h3>Why I Want a Website</h3>
+        <p>I've always liked the idea of having my own website, even as a kid. I'm excited to learn how to make one myself.</p>
+      </div>
+    </div>
+
+    <div class="section">
+      <h3>Three Paragraphs</h3>
+      <p>I really like the idea of having my own website. I hope the skills I learn in this class will help me do that.</p>
+      <p>With this class, I can achieve my goal. I just have to stay motivated and ready to learn. Hopefully I can keep up lol.</p>
+      <p>I'm also trying to prove to myself that I can learn other programming languages. HTML hasn't been too bad so far!</p>
+    </div>
+
+    <div class="section music-section">
+      <div class="music-text">
+        <h3>My Favorite Songs Are:</h3>
+        <ul class="song-list">
+          <li>Vinum Sabbati - Electric Wizard</li>
+          <li>When the Screams Come - Pentagram</li>
+          <li>Hush Skit - Lucki</li>
+          <li>High-Rate Extinction - Crowbar</li>
+        </ul>
+        <p id="song">Song recommendation: Vinum Sabbati - Electric Wizard</p>
+      </div>
+      <img class="lucki-picture" src="lucki-shh.gif" alt="Lucki meme GIF">
+    </div>
+    <p><a href="https://www.vcu.edu/">Visit VCU.edu</a></p>
+  </div>
+
+  <script>
+    // Songs that will appear on the page
+    const songs = [
+      "Vinum Sabbati - Electric Wizard",
+      "When the Screams Come - Pentagram",
+      "Hush Skit - Lucki",
+      "High-Rate Extinction - Crowbar"
+    ];
+
+    let index = 0;
+
+    // Change the song every three seconds
+    setInterval(function() {
+      index = (index + 1) % songs.length;
+      document.getElementById("song").textContent = "Song recommendation: " + songs[index];
+    }, 3000);
+  </script>
+</body>
+</html>
